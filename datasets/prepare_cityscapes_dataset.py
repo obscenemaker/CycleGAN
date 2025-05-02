@@ -15,7 +15,6 @@ python prepare_cityscapes_dataset.py --gitFine_dir ./gtFine/ --leftImg8bit_dir .
 """
 
 def load_resized_img(path):
-    print(123)
     return Image.open(path).convert('RGB').resize((256, 256))
 
 def check_matching_pair(segmap_path, photo_path):
