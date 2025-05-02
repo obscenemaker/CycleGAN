@@ -15,6 +15,7 @@ python prepare_cityscapes_dataset.py --gitFine_dir ./gtFine/ --leftImg8bit_dir .
 """
 
 def load_resized_img(path):
+    print(123123)
     print(123)
     print(path)
     print(23123123123)
