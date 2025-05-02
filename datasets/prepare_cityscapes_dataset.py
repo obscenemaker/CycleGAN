@@ -19,6 +19,7 @@ def load_resized_img(path):
     print(123123323123)
     print(3123123123)
     print(123131232)
+    print(13123123123)
     return Image.open(path).convert('RGB').resize((256, 256))
 
 def check_matching_pair(segmap_path, photo_path):
